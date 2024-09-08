@@ -1,3 +1,12 @@
+/** This program consists of a menu in which you can choose 
+ * the .txt document to display.
+ *Authors:
+ *Santiago Aranda Hurtado
+ *Andres David Arias Combita
+ *Luis Felipe Ayala Fernández
+ *Santiago Valencia Marin
+ */
+
 package ProjectCFP;
 
 import java.io.FileNotFoundException;
@@ -6,9 +15,25 @@ import java.nio.file.Path;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
+/**
+ * This class handles the generation and display of information files.
+ * It provides options to see a list of vendors, a product listing, 
+ * and a sales report.
+ */
+
 public class GenerateInfoFiles {
+	
+	/**
+     * A static instance of Scanner to receive user input from the keyboard.
+     */
 
 	static Scanner keyBoard = new Scanner(System.in);
+	
+	/**
+     * Starts the main menu where the user can select different options
+     * to view vendor information, product information, or sales reports.
+     * The menu runs in a loop until the user chooses to exit.
+     */
 
 	public void Start() {
 		int opcion = 0;
@@ -41,6 +66,12 @@ public class GenerateInfoFiles {
 
 		System.out.println("----------Sesion finished----------");
 	}
+	
+	/**
+     * Reads and displays the contents of the SellerInfo.txt file.
+     * If the file is not found or cannot be loaded, an error message 
+     * is displayed.
+     */
 
 	public void Archive1() {
 		int opcion = 0;
@@ -57,6 +88,12 @@ public class GenerateInfoFiles {
 		}
 		System.out.println();
 	}
+	
+	/**
+     * Reads and displays the contents of the ProductInfo.txt file.
+     * If the file is not found or cannot be loaded, an error message 
+     * is displayed.
+     */
 
 	public void Archive2() {
 		int opcion = 0;
@@ -74,6 +111,12 @@ public class GenerateInfoFiles {
 		}
 		System.out.println();
 	}
+	
+	/**
+     * Reads and displays the contents of the seller1Report.txt file.
+     * If the file is not found or cannot be loaded, an error message 
+     * is displayed.
+     */
 
 	public void Archive3() {
 		int opcion = 0;
@@ -91,6 +134,15 @@ public class GenerateInfoFiles {
 		}
 		System.out.println();
 	}
+	
+	 /**
+     * The main method, which serves as the entry point to the program.
+     * It creates an instance of the GenerateInfoFiles class and calls 
+     * the Start method.
+     *
+     * @param args command line arguments (not used)
+     * @
+     */
 
 	public static void main(String[] args) throws FileNotFoundException {
 
