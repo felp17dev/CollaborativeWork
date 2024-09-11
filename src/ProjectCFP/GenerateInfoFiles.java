@@ -4,7 +4,9 @@
  *Santiago Aranda Hurtado
  *Andres David Arias Combita
  *Luis Felipe Ayala Fernández
+ *Leidy Johana Lopez Rincon
  *Santiago Valencia Marin
+ *Subgrupo 14
  */
 
 package ProjectCFP;
