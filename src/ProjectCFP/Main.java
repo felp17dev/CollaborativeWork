@@ -64,6 +64,10 @@ public class Main {
 				}
 			});
 			generateSalesReport(outputFilePath, sellerNames);
+			System.out.println("      *****************************************************");
+			System.out.println("      *                   SALES REPORT                    *");
+			System.out.println("      *****************************************************");
+			System.out.println("-------------------------------------------------------------------");
 			System.out.println("Sales report file was created.");
 			System.out.println("-------------------------------------------------------");
 		}
@@ -148,6 +152,10 @@ public class Main {
 				}
 			});
 			generateProductReport(outputFilePath, productNames);
+
+			System.out.println("      *****************************************************");
+			System.out.println("      *           PRODUCT SALES REPORT                    *");
+			System.out.println("      *****************************************************");
 			System.out.println("Product sales report file was created.");
 			System.out.println("-------------------------------------------------------");
 		}
@@ -214,7 +222,10 @@ public class Main {
 				System.out.println("Reading file: " + filePath);
 				for (String line : lines) {
 					System.out.println(line);
+					
 				}
+				
+	
 				System.out.println("-------------------------------------------------------");
 			} catch (IOException e) {
 				e.printStackTrace();
