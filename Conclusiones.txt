@@ -1,0 +1,25 @@
+/////////////////////////////////////////////////////////
+
+Santiago Aranda Hurtado, cód.- 100326038
+Andres David Arias Combita, cód.- 100335162 
+Luis Felipe Ayala Fernández, cód.- 100307123
+Santiago Valencia Marin, cód.- 100325998
+Leidy Johana Lopez Rincon, cód. - 100290290
+
+GRUPO B01 - SUBGRUPO 14
+
+/////////////////////////////////////////////////////////
+
+1. Lo aprendido durante el desarrollo del proyecto.
+
+Dentro del contenido aprendido y que sera de gran utilidad es el uso de buenas practicas de programación, adicionalmente el proyecto a realizar nos llevo a un nivel de complejidad bastante interesante, lo cual nos enfrento a momentos dificiles al momento de realizar el codigo.
+
+2. Posible aplicaciones en su vida profesional de la destrezas y conocimientos adquiridos y practicados durante el desarrollo del proyecto.
+
+Los conocimientos adquiridos en este proyecto son de gran aplicacion en la vida profesiona de los integrantes del grupo, ya que las habilidades en programacion ya no son exclusivas para profesionales en carreras relacionadas con informatica, estps conceptos son de gran utilidad para la ciencia de datos area de estudio que cada dia crece mas y no es agena a profesionales de carreras agenas a la informatica.
+
+ 
+3. Las dificultades presentadas durante el desarrollo del proyecto.
+
+La manipulación de datos entre archivos planos fue de los solicitudes mas complejas a realizar, adicionalmente la generación de archivos randon tambien fue de gran complejidad.
+
